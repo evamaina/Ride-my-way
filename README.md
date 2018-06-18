@@ -12,8 +12,7 @@ Ride-my App is a carpooling application that provides drivers with the ability t
 * Passengers can view all available ride offers.
 
 * Passengers can see the details of a ride offer and request to join the ride. 
-* 
-* E.g What time the ride leaves, where it is headed e.t.c
+ E.g What time the ride leaves, where it is headed e.t.c
 
 * Drivers can view the requests to the ride offer they created.
 
