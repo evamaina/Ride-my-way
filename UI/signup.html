@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<link href="css/style2.css" type="text/css" rel="stylesheet"/>
+	<!-- script that for form validation-->
+	<script src="js/signuppagevalidationjs.js"></script>
+</head>
+<body>
+	<div class="header">
+	  <a href="landingpage.html" class="brand">Ride My Way</a>
+	  <div class="header-right">
+	    <a href="login.html" class="active">Login</a>
+	  </div>
+	</div>
+
+	<div id="row">
+	    <div class="col-1">
+	    	<div id="carImage"><img src="images/carpool.jpg"></div>
+	    </div>
+
+	    <div class="col-2">
+			<div class="form_container">
+				<p class="form_heading">SIGNUP FOR A RIDE</p>
+				<form method="post" action="login.html" name="signUp" onsubmit="return validateForm()"">
+					<p><input type="text" placeholder="Enter First Name" name="Fname" id="Fname"></p>
+					<p><input type="text" placeholder="Enter Last Name" name="Lname" id="Lname"></p>
+					<p><input type="text" placeholder="Enter Username" name="Username"></p>
+					<p><input type="email" placeholder="Enter Email" name="Email"></p>
+					<p><input type="number" placeholder="Enter Phone Number" name="Number"></p>
+					<p><input type="password" placeholder="Enter Password" name="Password" ></p>
+					<p><input type="password" placeholder="Confirm password" name="Cpassword"></p>
+					<p><input type="submit" value="SIGNUP" ></p>
+				</form>
+			</div>
+	    </div>		
+
+	</div>
+
+<footer class="footer">
+  <p>&copy; Copyright 2018, Ride My Way</p>
+</footer>
+
+</body>
+</html>
