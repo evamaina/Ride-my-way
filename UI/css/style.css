@@ -79,7 +79,7 @@ font-weight:bold;
 	text-align: center;
 }
 
-/*make html element responsive in smaller screens of minimum width 700px and maximum width of 955px*/
+/*make html element responsuive in smaller screens of minimum width 700px and maximum width of 955px*/
 @media only screen and (min-width:700px) and (max-width:995px)
 {
 .form_container
@@ -116,7 +116,7 @@ width:80%;
 	float: left;
 }
 
-/*make html element responsive in smaller screens of minimum width 400px and maximum width of 699px*/
+/*make html element responsuive in smaller screens of minimum width 400px and maximum width of 699px*/
 @media only screen and (min-width:400px) and (max-width:699px)
 {
 .col-1{
@@ -151,7 +151,7 @@ width:80%;
 }
 }
 
-/*makes html element responsive in smaller screens of minimum width 100px and maximum width of 399px*/
+/*makes html element responsuive in smaller screens of minimum width 100px and maximum width of 399px*/
 @media only screen and (min-width:100px) and (max-width:399px)
 {
 
