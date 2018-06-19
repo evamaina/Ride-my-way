@@ -1,0 +1,175 @@
+body
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: Arial,Sans-Serif, Helvetica;
+ background-color:;
+ 
+}
+
+#bodyLogin{
+	background-color: #FF6347;
+}
+
+#carImage > img{
+	width:600px;
+	height:400px;
+}
+
+#loginHeader{
+	color: black;
+}
+
+.form_container
+{
+margin-top: 20px;
+padding:10px;
+background-color:#A6ACAF;
+width:330px;
+}
+
+/*center the login page*/
+#login{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:white;
+}
+.form_container .form_heading
+{
+margin:15px;
+margin-bottom:30px;
+font-size:25px;
+font-weight:bold;
+color:white;
+text-decoration:underline;
+}
+
+/*styling the form input fields*/
+.form_container input[type="text"],input[type="password"],input[type="email"],input[type="number"]
+{
+width:230px;
+height:40px;
+border-radius:2px;
+font-size:17px;
+padding-left:px;
+/*border:none;*/
+}
+
+.form_container input[type="submit"]
+{
+width:230px;
+height:40px;
+border:none;
+border-radius:2px;
+font-size:17px;
+background-color:green;
+border-bottom:3px solid #616A6B;
+color:white;
+font-weight:bold;
+}
+
+#content{
+	width: 100%;
+}
+
+#title{
+	text-align: center;
+}
+
+/*make html element responsive in smaller screens of minimum width 700px and maximum width of 955px*/
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+.form_container
+{
+width:50%;
+margin-left:25%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_container input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_container textarea
+{
+width:80%;
+}
+.form_container input[type="submit"]
+{
+width:80%;
+}
+}
+
+/*styles div to occupy 65% of the screen leaving room for another element on the same line*/
+.col-1{
+	margin-top: 80px;
+	width: 65%;
+	float: left;
+}
+
+/*styles div to occupy 35% of the screen leaving room for another element on the same line*/
+.col-2{
+	width:35%;
+	float: left;
+}
+
+/*make html element responsive in smaller screens of minimum width 400px and maximum width of 699px*/
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+.col-1{
+	margin-top: 80px;
+	width: 100%;
+	float: none;
+}
+.col-2{
+	width: 100%;
+	float: none;
+}	
+#container
+{
+width:100%;
+}
+#container h1
+{
+font-size:30px;
+}
+.form_container
+{
+width:60%;
+margin-left:20%;
+}
+.form_container input[type="text"],input[type="password"],input[type="email"],input[type="number"]
+{
+width:80%;
+}
+.form_container input[type="submit"]
+{
+width:80%;
+}
+}
+
+/*makes html element responsive in smaller screens of minimum width 100px and maximum width of 399px*/
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+
+font-size:25px;
+}
+.form_container
+{
+width:90%;
+margin-left:5%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_container input[type="text"],input[type="password"],input[type="email"],input[type="number"]
+{
+width:80%;
+}
+.form_container input[type="submit"]
+{
+width:80%;
+}
+}
