@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link href="css/style2.css" type="text/css" rel="stylesheet"/>
+
+<style type="text/css">
+.main-column{margin-left:auto;margin-right:auto;width: 50%; float: none;background-color: #FF6347;color:white;}
+
+.joinRideBtn{
+  text-decoration: none;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.accept{
+	background-color: green;
+}
+
+.reject{
+	background-color: red;
+}
+
+</style>
+
+</head>
+
+<body>
+	<div class="header">
+	  <a href="landingpage.html" class="brand">Ride My Way</a>
+	  <div class="header-right">
+	    <a href="signup.html">Sign Up</a>
+	    <a href="login.html">Login</a>
+	  </div>
+	</div>
+
+<div class="row">
+
+	<h1 id="mainTitle">View Ride Requests</h1>
+
+  <div class="main-column">
+  	<div class="centered">
+	    <table>
+		  <tr>
+		    <th>Firstname</th>
+		    <th>Lastname</th>
+		    <th>Accept Request</th> 
+		    <th>Reject Request</th> 
+		  </tr>
+		  <tr>
+		    <td>Eva</td>
+		    <td>Maina</td> 
+		    <td><a href="#" class="joinRideBtn accept" >Accept</a></td>
+		    <td><a href="#" class="joinRideBtn reject" >Reject</a></td>
+		  </tr>
+		  <tr>
+		    <td>Joe</td>
+		    <td>Doe</td> 
+		    <td><a href="#" class="joinRideBtn accept">Accept</a></td>
+		    <td><a href="#" class="joinRideBtn reject" >Reject</a></td>
+		  </tr>
+		</table>
+    </div>
+  </div>
+		
+<footer class="footer1">
+  <p>&copy; Copyright 2018, Ride My Way</p>
+</footer>		
+
+</body>
+</html>
