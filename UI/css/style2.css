@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 /* style header part*/
@@ -117,7 +118,7 @@
     margin-left: 30%;
 }
 
-/* Reduce elements sizes according depending on screen size. Style main-column in scren sizes of max 700px*/
+
 @media screen and (max-width: 700px) {
     .main-column {
         width: 100%;
