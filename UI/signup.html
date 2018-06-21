@@ -1,15 +1,14 @@
-
 <html>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <link href="css/style.css" type="text/css" rel="stylesheet"/>
 <link href="css/style2.css" type="text/css" rel="stylesheet"/>
 	<!-- script  for form validation-->
-	<script src="js/signuppagevalidationjs.js"></script>
+	<script src="js/signupPageValidationJs.js"></script>
 </head>
 <body>
 	<div class="header">
-	  <a href="landingpage.html" class="brand">Ride My Way</a>
+	  <a href="home.html" class="brand">Ride My Way</a>
 	  <div class="header-right">
 	    <a href="login.html" class="active">Login</a>
 	  </div>
@@ -29,10 +28,21 @@
 					<input type="text" placeholder="Enter Username" name="Username">
 					<input type="email" placeholder="Enter Email" name="Email">
 					<input type="number" placeholder="Enter Phone Number" name="Number">
+
+					<select>
+						<option value="Passanger">***Select User Role***</option>
+						<option value="Passenger">Passenger</option>
+						<option value="Driver">Driver</option>
+					</select>
+					<input type="password" placeholder="Enter Password" name="Password" >
+					<input type="password" placeholder="Confirm password" name="Cpassword">
+					<input type="submit" value="SIGNUP" >
+
 					<input type="password" placeholder="Enter Password" name="Password" >
 					<input type="password" placeholder="Confirm password" name="Cpassword">
 					<input type="submit" value="SIGNUP" >
 				</form>
+
 			</div>
 	    </div>		
 
@@ -44,3 +54,7 @@
 
 </body>
 </html>
+
+
+
+
