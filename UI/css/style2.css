@@ -54,6 +54,7 @@
     background-color: #FF6347;
     color: white;
     text-align: center;
+    
 }
 
 .footer1 > p {
@@ -160,8 +161,15 @@
     padding: 10px;
 }
 
-#carImage{
-    width: 100%;
-    height: auto;
+
+
+#carImage > img{
+    width:80%;
+    height:500px;
 }
 
+.col-1{
+    margin-top: 20px;
+    width: 65%;
+    float: left;
+}
